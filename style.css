@@ -9,15 +9,12 @@ nav{
     min-width: 1136px;
     position: sticky;
     align-items: center; 
-
-
 }
 
 .header{
     background-color: #E1E1E1;
     border-bottom: black solid 2px;
     padding-bottom: 16px;
-
 }
 
 #about{
@@ -29,7 +26,6 @@ li{
     display: inline; 
     padding: 0px 32px;
     font-family: 'Jost', Times, serif;
-
 }
 
 a{
@@ -43,11 +39,13 @@ a{
 }
  
 .banner{
-    margin-left: 160px;
-    margin-right: 580px;
+    margin-left: 580px;
+    margin-right: 160px;
 }
 
 .photo{
+    padding-top: 60px;
+    padding-left: 160px;
     float: left;
     width: 306px;
     height: 362px;
@@ -56,15 +54,11 @@ a{
 .skill{
     margin-left: 160px;
     margin-right: 160px;
-
 }
 
 #mywork{
-    margin: 1280px 720px;
-}
-
-p{
-    text-align: justify;
+    margin-top: 600px;
+    background-color: #B3C4CD;
 }
 
 .a{    
@@ -93,10 +87,12 @@ p{
 
 }
 
-.skill h1{
+.skill_mywork h1{
     text-align: center;
     text-decoration: underline;
 }
+
+
 
 .skill article{
     display: table-cell;
@@ -115,13 +111,12 @@ h3{
 p{
     text-align:start;
     padding-right: 60px;
-
+    line-height: 16px;
+    text-align: justify;
 }
 
 .webdeveloper{
     color: #1982BA;
     font-style: italic;
 }
-p{
-    line-height: 16px;
-}
+
