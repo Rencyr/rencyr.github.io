@@ -32,6 +32,28 @@ li{
     font-family: 'Jost', Times, serif;
 }
 
+li :hover{
+    text-decoration: underline;
+}
+
+button{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFAFA;
+    background-color: #3566A5;
+    padding: 6px 28px;
+    border: 1px aqua solid;
+    cursor:pointer;
+    border-radius: 32px;
+    transition: 0.3s ease-out;
+}
+
+.contact :hover{
+    color: #1982BA;
+    background-color: #FFFAFA;
+    text-decoration: none;
+}
+
 a{
     text-decoration: none;
     font-weight: bold;
@@ -61,7 +83,7 @@ a{
 }
 
 #mywork{
-    margin-top: 600px;
+    margin-top: 610px;
     background-color: #B3C4CD;
 }
 
@@ -76,11 +98,7 @@ a{
     margin-top: -22px;
 }
 
-.contact{
-    background-color: #3566A5;
-    padding: 6px 28px;
-    border-radius: 32px;    
-}
+
 
 .contact a{
     color: #FFFAFA;
