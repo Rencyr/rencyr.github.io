@@ -5,20 +5,23 @@ html{
 body{
     background-color: #E1E1E1;
 }
+
 nav{
     padding: 16px 56px;
     display: flex;
     justify-content: flex-end;
     height: 0px;    
     min-width: 1136px;
-    position: sticky;
+    position: fixed;
     align-items: center; 
+    background-color: #e1e1e180;
+    top: 0;
 }
 
 .header{
     background-color: #E1E1E1;
     border-bottom: black solid 2px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
 }
 
 #about{
@@ -30,6 +33,11 @@ li{
     display: inline; 
     padding: 0px 32px;
     font-family: 'Jost', Times, serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 li :hover{
@@ -44,7 +52,7 @@ button{
     padding: 6px 28px;
     border: 1px aqua solid;
     cursor:pointer;
-    border-radius: 32px;
+    border-radius: 8px;
     transition: 0.3s ease-out;
 }
 
@@ -81,10 +89,33 @@ a{
     margin-left: 160px;
     margin-right: 160px;
 }
+.skill footer{
+    padding-bottom: 86px;
+}
 
 #mywork{
     margin-top: 610px;
     background-color: #B3C4CD;
+}
+
+.mywork{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.mywork h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mywork article{
+    display:inline-block;
+    background-color: #D9D9D9;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-right: 16px;
+    margin-left: 16px;
+    justify-content: center;
 }
 
 .a{    
@@ -95,10 +126,8 @@ a{
 }
 
 .container{
-    margin-top: -22px;
+    margin-top: -26px;
 }
-
-
 
 .contact a{
     color: #FFFAFA;
@@ -109,12 +138,10 @@ a{
 
 }
 
-.skill_mywork h1{
+.skill h1{
     text-align: center;
     text-decoration: underline;
 }
-
-
 
 .skill article{
     display: table-cell;
@@ -130,7 +157,7 @@ h3{
     padding-left: 80px;
 }
 
-p{
+#about p{
     text-align:start;
     padding-right: 60px;
     line-height: 16px;
