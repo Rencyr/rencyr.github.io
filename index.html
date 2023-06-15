@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,33 +103,33 @@
                 <article class="note">
                     <h2 class="header_contact">Let Me Build Your Website</h2>
                         <p>Send Me A Note Here</p>
-				        <form action="" method="post">
+				        <form action="" method="post" id="myForm">
 					        <p>
 						        <label for="nama">Nama :</label>
-						        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda">
+						        <input type="text" name="nama" id="nama" placeholder="Your Name">
 					        </p>
 					        <p>
 						        <label for="email">Email :</label>
-						        <input type="text" name="email" id="email" placeholder="Masukkan Email Anda">
+						        <input type="text" name="email" id="email" placeholder="*abc@gmail.com" required>
 					        </p>
 					        <p>
-						        <textarea name="message" id="message" cols="50" rows="10">Pesan di sini</textarea>
+						        <textarea name="message" id="message" cols="50" rows="10" placeholder="Your Message"></textarea>
 					        </p>
-				        <button>Kirim</button>
+                            <button type="button" onclick="submitForm()">Kirim</button>                                         
 				</form>
                 </article>
                 <article class="note">
                     <h2 class="header_contact">Follow My Social Media</h2>
 						<img src="media/IG.png" width="64px" height="64px">
-                        <span>Instagram</span></br>
+                        <h2>Instagram</h2></br>
                         <img src="media/pngwing.com.png" width="64px" height="64px">
-                        <span>WhatsApp</span></br>
+                        <h2>WhatsApp</h2></br>
                         <img src="media/Linkedin.png" width="64px" height="64px">
-                        <span>LinkedIn</span></br>
+                        <h2>LinkedIn</h2></br>
                 </article>
             </div>            
         </div>                            
-    </div>    
+    </div>     
 </body>
 <footer class="footer">
 	<p>
